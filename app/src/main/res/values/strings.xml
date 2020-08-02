@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidKickOff_Assignment</string>
+    <string name="Login_preference_file_name">LoginPreferences</string>
+</resources>

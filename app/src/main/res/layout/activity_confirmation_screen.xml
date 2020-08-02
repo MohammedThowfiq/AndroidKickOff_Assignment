@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/backgroundColor"
+    tools:context=".ConfirmationScreen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txtMobileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/txtEmailId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/txtMobileNumber"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
